@@ -1,0 +1,56 @@
+
+
+
+
+
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+  *{
+    margin: 0 auto;
+    font-family: Poppins ;
+    background-color: #FAF7FD;
+}
+
+#tree{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button{
+    margin: 15px;
+    text-decoration: none;
+    color: #BB99DD;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    border: solid;
+    border-color: #BB99DD;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#row{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    color: #BB99DD;
+    margin: 10px;
+}
+
+#avatar{
+    border-radius: 50%;
+    width: 240px;
+    border: #BB99DD;
+    border-style: solid;
+}
